@@ -1,0 +1,51 @@
+body {
+    background-color: #121212;
+    color: #e0e0e0;
+    font-family: 'JetBrains Mono', monospace;
+    margin: 0;
+    padding: 2rem;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+body.light-theme {
+    background-color: #ffffff;
+    color: #121212;
+}
+
+#theme-toggle {
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+    cursor: pointer;
+    background: #333;
+    color: white;
+    border: none;
+    padding: 0.5rem;
+    border-radius: 5px;
+}
+
+body.light-theme #theme-toggle {
+    background: #eee;
+    color: #333;
+}
+
+header {
+    text-align: center;
+    margin-bottom: 3rem;
+}
+
+
+h1 {
+    margin: 0;
+    font-size: 3rem;
+}
+
+section {
+    max-width: 800px;
+    margin: 0 auto 2rem;
+}
+
+h2 {
+    border-bottom: 1px solid #333;
+    padding-bottom: 0.5rem;
+}

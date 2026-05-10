@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nuttanun Ice | Data Analyst</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <button id="theme-toggle" aria-label="Toggle theme">☀️/🌙</button>
+    <header>
+        <h1>Nuttanun Ice</h1>
+        <p>Data Analyst</p>
+    </header>
+    <main>
+        <section id="About me">
+            <h2>Name</h2>
+            <p>I am a data analyst base in Bangkok</p>
+        </section>
+
+        <section id="projects">
+            <h2>Projects</h2>
+            <div class="project">
+                <h3>1. Sales Analysis</h3>
+                <p>Analyzed annual sales data to identify key performance trends.</p>
+            </div>
+            <div class="project">
+                <h3>2. Customer Segmentation</h3>
+                <p>Clustered customer behavior for personalized marketing strategy.</p>
+            </div>
+            <div class="project">
+                <h3>3. Sentiment Analysis</h3>
+                <p>Built an NLP model to evaluate customer review sentiment.</p>
+            </div>
+        </section>
+        <section id="contact">
+            <h2>Contact</h2>
+            <p>Email: nuttanun.ice@example.com</p>
+            <p>GitHub: <a href="https://github.com/nuttanun-ice">github.com/nuttanun-ice</a></p>
+        </section>
+    </main>
+    <script>
+        const toggle = document.getElementById('theme-toggle');
+        toggle.addEventListener('click', () => {
+            document.body.classList.toggle('light-theme');
+        });
+    </script>
+</body>
+</html>
